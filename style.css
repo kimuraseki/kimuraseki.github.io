@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #0f0f0f;
-  color: #00ff88;
+  background-color: #222222; /* Charcoal Black */
+  color: #F5F1E9; /* Soft Cream */
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
@@ -11,28 +11,29 @@ body {
 }
 
 .terminal {
-  background-color: #111;
+  background-color: #7D7D7D; /* Warm Stone Gray */
   padding: 2rem;
   border-radius: 6px;
-  box-shadow: 0 0 10px #00ff88;
+  box-shadow: 0 0 10px #D65A1A; /* Deep Ember Orange glow */
   max-width: 600px;
   width: 90%;
 }
 
 #output h1 {
   font-size: 1.5rem;
-  color: #00ffaa;
+  color: #D65A1A; /* Deep Ember Orange */
   margin-bottom: 1.5rem;
 }
 
 #output h2 {
   font-size: 1rem;
-  color: #00ffaa;
+  color: #D65A1A; /* Deep Ember Orange */
   margin-bottom: 1rem;
 }
 
 #output p {
   margin: 0.5rem 0;
+  color: #F5F1E9; /* Soft Cream */
 }
 
 .links {
@@ -40,7 +41,7 @@ body {
 }
 
 .links a {
-  color: #00ff88;
+  color: #D65A1A; /* Deep Ember Orange */
   text-decoration: none;
   margin-right: 1rem;
   font-weight: bold;
@@ -48,4 +49,5 @@ body {
 
 .links a:hover {
   text-decoration: underline;
+  color: #5B6B50; /* Muted Moss Green */
 }
