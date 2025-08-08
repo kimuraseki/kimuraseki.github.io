@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #222222; /* Charcoal Black */
-  color: #F5F1E9; /* Soft Cream */
+  background-color: #0B0B0B; /* Deep Black */
+  color: #F8F4E3; /* Ivory White */
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   justify-content: center;
@@ -11,29 +11,31 @@ body {
 }
 
 .terminal {
-  background-color: #7D7D7D; /* Warm Stone Gray */
+  background-color: #2E2E2E; /* Charcoal Gray */
   padding: 2rem;
   border-radius: 6px;
-  box-shadow: 0 0 10px #D65A1A; /* Deep Ember Orange glow */
+  box-shadow: 0 0 12px #C62828; /* Crimson Red glow */
   max-width: 600px;
   width: 90%;
 }
 
 #output h1 {
   font-size: 1.5rem;
-  color: #D65A1A; /* Deep Ember Orange */
+  color: #C62828; /* Crimson Red */
   margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 #output h2 {
   font-size: 1rem;
-  color: #D65A1A; /* Deep Ember Orange */
+  color: #C62828; /* Crimson Red */
   margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 #output p {
   margin: 0.5rem 0;
-  color: #F5F1E9; /* Soft Cream */
+  color: #F8F4E3; /* Ivory White */
 }
 
 .links {
@@ -41,13 +43,14 @@ body {
 }
 
 .links a {
-  color: #D65A1A; /* Deep Ember Orange */
+  color: #C62828; /* Crimson Red */
   text-decoration: none;
   margin-right: 1rem;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .links a:hover {
   text-decoration: underline;
-  color: #5B6B50; /* Muted Moss Green */
+  color: #D4AF37; /* Gold Accent */
 }
